@@ -1,8 +1,8 @@
 Summary:	Utilities to create compressed CD-ROM filesystems
 Summary(pl):	Narzêdzia do tworzenia skompresowanych systemów plików na CD-ROM
 Name:		zisofs-tools
-Version:	1.0.3
-Release:	3
+Version:	1.0.4
+Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.kernel.org/pub/linux/utils/fs/zisofs/%{name}-%{version}.tar.gz
@@ -32,13 +32,11 @@ na CD-ROM.
 rm -rf $RPM_BUILD_ROOT
 %{__make} install INSTALLROOT="$RPM_BUILD_ROOT"
 
-gzip -9nf CHANGES README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc CHANGES README
 %attr(755,root,root) %{_bindir}/mkzftree
 %{_mandir}/man1/mkzftree.1*
