@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.kernel.org/pub/linux/utils/fs/zisofs/%{name}-%{version}.tar.gz
+# Source0-md5:	feb9e86dddf8cac6a649afbbcc0fe9d2
 URL:		http://www.kernel.org/pub/linux/utils/fs/zisofs/
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
