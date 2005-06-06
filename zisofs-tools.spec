@@ -9,6 +9,7 @@ Source0:	http://www.kernel.org/pub/linux/utils/fs/zisofs/%{name}-%{version}.tar.
 # Source0-md5:	fea684a07d199963d59731bb368750ad
 URL:		http://www.kernel.org/pub/linux/utils/fs/zisofs/
 BuildRequires:	autoconf
+BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
