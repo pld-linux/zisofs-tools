@@ -1,5 +1,5 @@
 Summary:	Utilities to create compressed CD-ROM filesystems
-Summary(pl.UTF-8):   Narzędzia do tworzenia skompresowanych systemów plików na CD-ROM
+Summary(pl.UTF-8):	Narzędzia do tworzenia skompresowanych systemów plików na CD-ROM
 Name:		zisofs-tools
 Version:	1.0.7
 Release:	1
