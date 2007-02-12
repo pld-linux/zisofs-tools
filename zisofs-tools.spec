@@ -1,5 +1,5 @@
 Summary:	Utilities to create compressed CD-ROM filesystems
-Summary(pl):	Narzêdzia do tworzenia skompresowanych systemów plików na CD-ROM
+Summary(pl.UTF-8):   NarzÄ™dzia do tworzenia skompresowanych systemÃ³w plikÃ³w na CD-ROM
 Name:		zisofs-tools
 Version:	1.0.7
 Release:	1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tools that, in combination with an appropriate version mkisofs, allow
 the creation of compressed CD-ROM filesystems.
 
-%description -l pl
-S± to programy narzêdziowe, które przy przy wykorzystaniu odpowiedniej
-wersji mkisofs, umo¿liwiaj± tworzenie skompresowanych systemów plików
+%description -l pl.UTF-8
+SÄ… to programy narzÄ™dziowe, ktÃ³re przy przy wykorzystaniu odpowiedniej
+wersji mkisofs, umoÅ¼liwiajÄ… tworzenie skompresowanych systemÃ³w plikÃ³w
 na CD-ROM.
 
 %prep
